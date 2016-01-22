@@ -1,0 +1,26 @@
+---
+title: "index"
+author: "Wagner Quiros Pereira"
+date: "January 22, 2016"
+output: html_document
+---
+
+ Types of data
+ Data and metadata standards
+ Policies for access and sharing
+ Policies and provisions for re-use, re-distribution
+ Plans for archiving and preservation of access
+
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
