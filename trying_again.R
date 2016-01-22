@@ -6,3 +6,5 @@ mydata <- data.frame(age,gender,weight)
 plot(x=age, y=weight)
 mean(age)
 mean(weight)
+
+## I wanna make some changes.
