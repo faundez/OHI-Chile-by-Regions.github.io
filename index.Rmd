@@ -1,30 +1,31 @@
 ---
-title: "index"
-author: "Wagner Quiros Pereira"
+title: "Marine Health Indexes"
+author: "Patricia Faundez"
 date: "January 22, 2016"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
 ---
+####Measuring Ocean Health Indexes for Chile
 
-We have to meet to work in what indexes we are going to work!!!
+###Data Management Planning Tool
 
- Types of data
- 
- Data and metadata standards
- 
- Policies for access and sharing
- 
- Policies and provisions for re-use, re-distribution
- 
- Plans for archiving and preservation of access
- 
- Add something wanted by Adam.
- We need to be in the project and then make changes.
- 
-  Add something. Please.
-  
+Types of data
+Existing data was collected from institutions and government agencies of Chile through web searching and direct contact with institutions and scientists.
 
-  We have to choose the indexes!!
-  
-  I want to work in Biodiverity index
-  
+Data types will be layers (numeric, text and data frames) and spatial (shapefiles)
+
+Data and metadata standards
+Metadata include value, filename.csv, value units, score value range, extraction (local, global, scientific literature, raster, website)
+
+Policies for access and sharing
+all data, program code and results are freely available via the service GitHub https://github.com/OHI-Science/ and http://ohi-science.org/chl
+
+Policies and provisions for re-use, re-distribution
+Plans for archiving and preservation of access
+Data will be available at
+
+https://github.com/OHI-Science/ and http://ohi-science.org/chl
+
 
