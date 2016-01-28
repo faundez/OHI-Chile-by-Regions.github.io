@@ -28,4 +28,51 @@ Data will be available at
 
 https://github.com/OHI-Science/ and http://ohi-science.org/chl
 
+## Data Question
+How many species in conservation status there are in XI region of Chile?
 
+```{r}
+if (basename(getwd()) == 'env-info'){
+  setwd('students')
+}
+# present working directory
+getwd()
+
+# list files
+list.files()
+
+# load libraries
+library(readr)
+library(dplyr)
+
+
+
+
+# read in csv
+species_XI = read_csv("C:/Users/Patricia/Desktop/Environmental Informatics/env-info/students/data/faundez_species_Chile.csv") 
+
+head(species_XI)
+summary(species_XI)
+
+# limit columns to species, region and conservation status
+species_XI_2 = species_XI[,c('species', 'XI', 'conservation_status')]
+
+# limit rows to just species "1"
+species_XI_3 = species_XI_2[species_XI_2$XI  == '1',]
+
+# write to csv
+write.csv(species_XI_3, 'C:/Users/Patricia/Desktop/Environmental Informatics/env-info/students/data/faundez_XI.csv', row.names = FALSE)
+
+
+```
+
+
+I have questions with the use of dplyr
+
+# dplyr elegance
+species_XI %T>%                          # note tee operator %T>% for glimpse
+  glimpse() %>%                       # view data
+  select(species, XI, conservation_status) %>%        # limit columns
+  filter(XI  == '1') %>%     # limit rows
+  
+  write_csv('C:/Users/Patricia/Desktop/Environmental Informatics/env-info/students/data/faundez_2XI.csv') # write out csv
