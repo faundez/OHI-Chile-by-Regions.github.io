@@ -1,78 +1,93 @@
 ---
-title: "Marine Health Indexes"
+title: "KUNI FELLOWSHIP PROPOSAL"
 author: "Patricia Faundez"
-date: "January 22, 2016"
+date: "Februsry 17, 2016"
 output:
   html_document:
     toc: true
     toc_depth: 4
 ---
-####Measuring Ocean Health Indexes for Chile
 
-###Data Management Planning Tool
+####Maping mariculture harvest in the world (data from, https://github.com/OHI-Science/ohi-global)
 
-Types of data
-Existing data was collected from institutions and government agencies of Chile through web searching and direct contact with institutions and scientists.
+```{r, echo=FALSE, warning=FALSE}
 
-Data types will be layers (numeric, text and data frames) and spatial (shapefiles)
+suppressPackageStartupMessages({
+  library(readr)
+  library(dplyr)
+  library(tidyr)
+  library(ggplot2)
+  library(knitr)
+})
 
-Data and metadata standards
-Metadata include value, filename.csv, value units, score value range, extraction (local, global, scientific literature, raster, website)
+```
 
-Policies for access and sharing
-all data, program code and results are freely available via the service GitHub https://github.com/OHI-Science/ and http://ohi-science.org/chl
 
-Policies and provisions for re-use, re-distribution
-Plans for archiving and preservation of access
-Data will be available at
+# The Geo chart is displayed in a window's browser when you run this chunk
 
-https://github.com/OHI-Science/ and http://ohi-science.org/chl
+```{r Maping IUCN Category Index per Country}
 
-## Data Question
-How many species in conservation status there are in XI region of Chile?
+#run this chunk to get the Geo chart
+
+setwd("~/Winter_2016/Environmental_Informatics/marinehealth.github.io/KUNI")
+
+mar_harvest <- read_csv(file="mar_harvest_tonnes.csv")     #read cvs always as read_csv (instead of read.csv) it keep the data without factors
+
+#This is the file with thae matching column "FAO_Country"
+conversion <- read_csv(file="CountryConversion.csv")
+
+
+harvest_countries = mar_harvest %>%           
+  rename(FAO_Country=country) %>%             #rename match column FAO_Country
+  left_join(                                  #joining harvest_countries with conversion data 
+    conversion, 
+    by = c("FAO_Country")) 
+str(harvest_countries)
+  
+harvest_2013 = harvest_countries %>%                     
+  filter(year > 2012)%>%                           # filtering to keep only 2013 year of harvest
+  group_by(FAO_Country) %>%                        #grouping by country
+   summarise(
+     harvest = round(sum(value),digits=1), n_species = n()) #getting sum per country and n species harvested
+
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
+
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages("googleVis")
+
+#### Create a geo chart
+
+G1 <- gvisGeoChart(harvest_2013, "FAO_Country", "harvest", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G1)
+
+G2 <- gvisGeoChart(harvest_2013, "FAO_Country", "n_species", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G2)
+
+```
 
 ```{r}
-if (basename(getwd()) == 'env-info'){
-  setwd('students')
-}
-# present working directory
-getwd()
+harvest_2013_noChina = harvest_countries %>%                     
+  filter(year > 2012)%>%                           # filtering to keep only 2013 year of harvest
+  filter(FAO_Country != "China")%>% 
+  group_by(FAO_Country) %>%                        #grouping by country
+   summarise(
+     harvest = round(sum(value),digits=1), n_species = n()) #getting sum per country and n species harvested
 
-# list files
-list.files()
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
 
-# load libraries
-library(readr)
-library(dplyr)
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages("googleVis")
 
+#### Create a geo chart
 
-
-
-# read in csv
-species_XI = read_csv("C:/Users/Patricia/Desktop/Environmental Informatics/env-info/students/data/faundez_species_Chile.csv") 
-
-head(species_XI)
-summary(species_XI)
-
-# limit columns to species, region and conservation status
-species_XI_2 = species_XI[,c('species', 'XI', 'conservation_status')]
-
-# limit rows to just species "1"
-species_XI_3 = species_XI_2[species_XI_2$XI  == '1',]
-
-# write to csv
-write.csv(species_XI_3, 'C:/Users/Patricia/Desktop/Environmental Informatics/env-info/students/data/faundez_XI.csv', row.names = FALSE)
+G3 <- gvisGeoChart(harvest_2013_noChina, "FAO_Country", "harvest", hovervar="FAO_Country",
+                options=list(gvis.editor="S&P",
+                             colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
+plot(G3)
 
 
 ```
 
 
-I have questions with the use of dplyr
-
-# dplyr elegance
-species_XI %T>%                          # note tee operator %T>% for glimpse
-  glimpse() %>%                       # view data
-  select(species, XI, conservation_status) %>%        # limit columns
-  filter(XI  == '1') %>%     # limit rows
-  
-  write_csv('C:/Users/Patricia/Desktop/Environmental Informatics/env-info/students/data/faundez_2XI.csv') # write out csv
