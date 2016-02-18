@@ -10,6 +10,7 @@
 
 <meta name="author" content="Patricia Faundez" />
 
+<meta name="date" content="2016-02-17" />
 
 <title>KUNI FELLOWSHIP PROPOSAL</title>
 
@@ -63,7 +64,7 @@ img {
 <div id="header">
 <h1 class="title">KUNI FELLOWSHIP PROPOSAL</h1>
 <h4 class="author"><em>Patricia Faundez</em></h4>
-<h4 class="date"><em>Februsry 17, 2016</em></h4>
+<h4 class="date"><em>February 17, 2016</em></h4>
 </div>
 
 <div id="TOC">
@@ -125,17 +126,19 @@ str(harvest_countries)</code></pre>
 suppressWarnings(suppressMessages(library(googleVis))) #install.packages(&quot;googleVis&quot;)
 
 #### Create a geo chart
-
+#harvest in all countries
 G1 &lt;- gvisGeoChart(harvest_2013, &quot;FAO_Country&quot;, &quot;harvest&quot;, hovervar=&quot;FAO_Country&quot;,
                 options=list(gvis.editor=&quot;S&amp;P&quot;,
                              colorAxis=&quot;{colors:['#91BFDB', '#FC8D59']}&quot;))
 plot(G1)</code></pre>
 <pre><code>## starting httpd help server ... done</code></pre>
-<pre class="r"><code>G2 &lt;- gvisGeoChart(harvest_2013, &quot;FAO_Country&quot;, &quot;n_species&quot;, hovervar=&quot;FAO_Country&quot;,
+<pre class="r"><code>#number of species produced since 1950
+G2 &lt;- gvisGeoChart(harvest_2013, &quot;FAO_Country&quot;, &quot;n_species&quot;, hovervar=&quot;FAO_Country&quot;,
                 options=list(gvis.editor=&quot;S&amp;P&quot;,
                              colorAxis=&quot;{colors:['#91BFDB', '#FC8D59']}&quot;))
 plot(G2)</code></pre>
-<pre class="r"><code>harvest_2013_noChina = harvest_countries %&gt;%                     
+<pre class="r"><code>#harvest in all countries without China  
+harvest_2013_noChina = harvest_countries %&gt;%                     
   filter(year &gt; 2012)%&gt;%                           # filtering to keep only 2013 year of harvest
   filter(FAO_Country != &quot;China&quot;)%&gt;% 
   group_by(FAO_Country) %&gt;%                        #grouping by country
@@ -152,6 +155,41 @@ G3 &lt;- gvisGeoChart(harvest_2013_noChina, &quot;FAO_Country&quot;, &quot;harve
                 options=list(gvis.editor=&quot;S&amp;P&quot;,
                              colorAxis=&quot;{colors:['#91BFDB', '#FC8D59']}&quot;))
 plot(G3)</code></pre>
+<pre class="r"><code>#number of species with harvest &gt; 1 ton in year 2013 
+species_2013_no0 = harvest_2013 %&gt;%
+  filter(harvest != 0)%&gt;%                           # filtering to keep only 2013 year of harvest
+  group_by(FAO_Country) %&gt;%                        #grouping by country
+   summarise(
+     harvest = round(sum(harvest),digits=1), n_species = n()) #getting sum per country and n species harvested
+
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
+
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages(&quot;googleVis&quot;)
+
+#### Create a geo chart
+
+G4 &lt;- gvisGeoChart(species_2013_no0, &quot;FAO_Country&quot;, &quot;n_species&quot;, hovervar=&quot;FAO_Country&quot;,
+                options=list(gvis.editor=&quot;S&amp;P&quot;,
+                             colorAxis=&quot;{colors:['#91BFDB', '#FC8D59']}&quot;))
+plot(G4)</code></pre>
+<pre class="r"><code>#number of species in 2013 with havest &gt;10000 ton
+species_2013_10000harvest = harvest_countries %&gt;% 
+  filter(year &gt; 2012)%&gt;% 
+  filter(value &gt; 10000)%&gt;%                           # filtering to keep only 2013 year of harvest
+  group_by(FAO_Country) %&gt;%                        #grouping by country
+   summarise(
+     harvest = round(sum(value),digits=1), n_species = n()) #getting sum per country and n species harvested
+
+# Plot countries, I am using the sum of all species for country as an example that we want to show in this map
+
+suppressWarnings(suppressMessages(library(googleVis))) #install.packages(&quot;googleVis&quot;)
+
+#### Create a geo chart
+
+G5 &lt;- gvisGeoChart(species_2013_10000harvest, &quot;FAO_Country&quot;, &quot;n_species&quot;, hovervar=&quot;FAO_Country&quot;,
+                options=list(gvis.editor=&quot;S&amp;P&quot;,
+                             colorAxis=&quot;{colors:['#91BFDB', '#FC8D59']}&quot;))
+plot(G5)</code></pre>
 </div>
 
 
