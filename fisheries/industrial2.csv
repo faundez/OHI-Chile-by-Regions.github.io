@@ -1,0 +1,623 @@
+REGION,PORT,SPECIES,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014
+15,ARICA,AGUJILLA, -   , -   , -   , -   , -   , -   , -   ,87,432,165,35,125,413,24,4
+15,ARICA,ANCHOVETA, -   , -   , -   , -   , -   , -   , -   ,"126,514","118,932","88,687","27,060","232,336","155,817","102,952","146,283"
+15,ARICA,BACALADILLO O MOTE, -   , -   , -   , -   , -   , -   , -   , -   , -   ,502, -   ,421,101,13, -   
+15,ARICA,BONITO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1
+15,ARICA,CABALLA, -   , -   , -   , -   , -   , -   , -   ,"18,592","9,387","8,121",983,161,271,"1,241",360
+15,ARICA,CALAMAR, -   , -   , -   , -   , -   , -   , -   ,6,1, -   , -   , -   , -   , -   , -   
+15,ARICA,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   , -   ,59,118,7,3,66,4,1,5
+15,ARICA,JUREL, -   , -   , -   , -   , -   , -   , -   ,"33,334","14,363","4,497","1,065",616,494,"3,928","1,045"
+15,ARICA,LANGOSTINO ENANO, -   , -   , -   , -   , -   , -   , -   ,2,1,37,114,65,58, -   ,44
+15,ARICA,PEJERREY DE MAR, -   , -   , -   , -   , -   , -   , -   ,22,12,1, -   ,1,2,3, -   
+15,ARICA,AGUJILLA, -   , -   ,244,"2,395",364,233,54, -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,ANCHOVETA,"341,095","121,787","224,272","53,282","348,047","193,801","57,724", -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,BACALADILLO O MOTE, -   ,15,502,40,54,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,BACALAO DE PROFUNDIDAD,11,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,CABALLA,"2,008","16,102","34,045","79,920","18,129","7,879","40,390", -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,CABINZA, -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,JIBIA O CALAMAR ROJO, -   , -   ,9,10,506,364,17, -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,JUREL,"8,682","11,908","13,945","29,185","9,981","24,634","41,624", -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,LANGOSTINO ENANO, -   , -   ,17,24,40,13, -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,MACHUELO O TRITRE, -   , -   ,6,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,PAMPANITO, -   , -   , -   ,1,3,4, -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,PEJERREY DE MAR, -   , -   ,18,5,38,2,4, -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,PESCADO NO CLASIFICADO, -   , -   ,1,15,1,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,RONCACHO, -   , -   ,1,11,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+15,ARICA,SARDINA ESPAÑOLA,"2,353",83, -   , -   ,138,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,AGUJILLA,116,"1,163","1,083","7,583",760,284,546,372,626,"5,778","6,665","3,893","11,871","7,796",369
+1,IQUIQUE,ALBACORA O PEZ ESPADA, -   , -   , -   , -   , -   , -   , -   ,7,13,11,10, -   , -   , -   , -   
+1,IQUIQUE,ANCHOVETA,"557,573","328,945","744,391","183,998","717,098","576,947","292,425","450,268","360,385","219,809","276,640","550,232","416,684","391,508","381,329"
+1,IQUIQUE,BACALADILLO O MOTE, -   , -   ,195, -   ,"1,814",345,"2,464",30,136,167,207,"2,184","2,621",534,11
+1,IQUIQUE,BACALAO DE PROFUNDIDAD, -   ,7,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,BARRILETE NEGRO, -   , -   , -   ,13,27,22, -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,BONITO, -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,15, -   , -   
+1,IQUIQUE,CABALLA,"45,370","98,547","92,147","189,135","104,536","33,599","74,865","29,909","34,735","59,502","19,505","3,326","10,794","5,514","4,645"
+1,IQUIQUE,CABINZA, -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,CACHURRETA, -   ,57,1,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,CALAMAR, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,3, -   , -   , -   , -   
+1,IQUIQUE,CAMARON NAILON,11, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,CENTOLLA DEL NORTE,22, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,CRUSTACEO NO CLASIFICADO,74, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,JIBIA O CALAMAR ROJO, -   ,216,636,323,678,916,162,270,522,133,285,414,172,28,68
+1,IQUIQUE,JUREL,"70,365","176,810","53,127","74,591","69,905","96,188","95,568","110,374","115,728","105,129","83,580","19,003","10,650","8,516","13,383"
+1,IQUIQUE,JUREL FINO, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,LANGOSTINO COLORADO, -   ,39, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,LANGOSTINO ENANO, -   , -   ,707,148,387,94,2,10,138,257,"1,229",338,9,26,131
+1,IQUIQUE,MACHUELO O TRITRE,26, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,MOLUSCO NO CLASIFICADO, -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,PAMPANITO, -   ,2, -   ,1,6,18, -   , -   ,26,16,1, -   ,2, -   , -   
+1,IQUIQUE,PEJERREY DE MAR, -   ,39,935,408,450,51,420,526,290,86,23,62,309,24,18
+1,IQUIQUE,PESCADO NO CLASIFICADO, -   , -   , -   ,20, -   , -   ,1, -   , -   ,2, -   , -   , -   , -   , -   
+1,IQUIQUE,SARDINA COMUN, -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,SARDINA ESPAÑOLA,"18,924","6,193",506,82,85,3,17, -   , -   , -   ,1, -   , -   , -   , -   
+1,IQUIQUE,SARDINA REDONDA, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+1,IQUIQUE,TOLLO, -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   
+2,ANTOFAGASTA,ALBACORA O PEZ ESPADA, -   , -   , -   , -   , -   , -   , -   ,63,10,6,61,6,44,75, -   
+2,ANTOFAGASTA,ALBACORA O PEZ ESPADA / IVI HEHEU, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,16
+2,ANTOFAGASTA,ANCHOVETA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,659
+2,ANTOFAGASTA,BACALAO DE PROFUNDIDAD, -   , -   ,3,2,1,2, -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,ANTOFAGASTA,CENTOLLA DEL NORTE, -   , -   , -   , -   ,4,2, -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,ANTOFAGASTA,CENTOLLON DEL NORTE, -   , -   , -   ,21,11,18, -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,ANTOFAGASTA,MARLIN, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   ,2, -   
+2,ANTOFAGASTA,TIBURON O MARRAJO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2,1, -   ,1, -   
+2,ANTOFAGASTA,TIBURON O MARRAJO DENTUDO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1
+2,MEJILLONES,AGUJILLA,31,141,78,74,78,100,9,46,5,3,19,105,93,269,22
+2,MEJILLONES,ANCHOVETA,"143,310","99,831","73,774","33,205","44,676","39,971","34,135","24,878","6,018","17,844","38,192","50,289","45,909","91,662","54,148"
+2,MEJILLONES,ANCHOVETA BLANCA,6, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,MEJILLONES,ANGUILA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   
+2,MEJILLONES,BACALADILLO O MOTE,132,16, -   , -   , -   , -   ,90, -   , -   , -   , -   ,65,2, -   , -   
+2,MEJILLONES,CABALLA,"9,909","16,707","13,930","8,007","8,673","2,198","1,826","3,987","4,161","5,086","4,929",473,163,780,435
+2,MEJILLONES,CALAMAR, -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,MEJILLONES,JIBIA O CALAMAR ROJO, -   ,2,84,85,136,310,24,93,13,34, -   ,156,8,27,12
+2,MEJILLONES,JUREL,"20,275","34,612","23,399","15,873","38,592","17,351","4,413","14,662","21,625","15,581","46,324","5,502",723,"3,792","2,183"
+2,MEJILLONES,LANGOSTINO ENANO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,9, -   , -   , -   , -   
+2,MEJILLONES,PAMPANITO, -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   
+2,MEJILLONES,PEJERREY DE MAR, -   ,1,26,23,47,2,88,15,2,24, -   ,2, -   , -   ,2
+2,MEJILLONES,PESCADO NO CLASIFICADO, -   , -   , -   ,16,21,6,10, -   , -   , -   , -   ,47,20,13,135
+2,MEJILLONES,SARDINA COMUN,35,7, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,MEJILLONES,SARDINA ESPAÑOLA,"4,942","3,385",555,7, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,TALTAL,CAMARON NAILON,7,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,TALTAL,MERLUZA COMUN,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+2,TALTAL,TIBURON O MARRAJO, -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   
+2,TOCOPILLA,AGUJILLA, -   ,170,80,265,206,128,18,27,29,33,294,554,594, -   , -   
+2,TOCOPILLA,ANCHOVETA,"109,358","54,120","73,133","56,335","124,469","93,338","44,104","37,953","48,996","40,782","45,094","62,287","12,623", -   , -   
+2,TOCOPILLA,BACALADILLO O MOTE, -   , -   , -   , -   ,19,207,"1,033", -   , -   , -   ,347,284, -   , -   , -   
+2,TOCOPILLA,BONITO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   
+2,TOCOPILLA,CABALLA,"7,419","11,414","12,560","29,969","25,753","3,424","2,526","2,023","1,025","1,021","6,180",612,258, -   , -   
+2,TOCOPILLA,JIBIA O CALAMAR ROJO, -   ,38,19,146,413,265,29,112,102,37,118,117,14, -   , -   
+2,TOCOPILLA,JUREL,"17,822","24,434","17,562","22,394","37,857","24,695","12,089","14,217","15,064","8,615","37,899","5,475","1,236", -   , -   
+2,TOCOPILLA,LANGOSTINO ENANO, -   , -   , -   ,37,71,3, -   , -   , -   ,1,31,40, -   , -   , -   
+2,TOCOPILLA,MOLUSCO NO CLASIFICADO, -   , -   , -   , -   , -   , -   , -   , -   ,14, -   , -   , -   , -   , -   , -   
+2,TOCOPILLA,PAMPANITO, -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   
+2,TOCOPILLA,PEJERREY DE MAR, -   ,5,26,105,166,14,114,34,131,21,9,7,50, -   , -   
+2,TOCOPILLA,PESCADO NO CLASIFICADO, -   , -   , -   ,7,248,117,25, -   , -   , -   ,739,100, -   , -   , -   
+2,TOCOPILLA,SARDINA ESPAÑOLA,"1,227","1,041",183,13, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,ALBACORA O PEZ ESPADA,3,15,2,8,5,4, -   ,25, -   , -   ,4,5, -   , -   , -   
+3,CALDERA,ANCHOVETA,"21,778","5,558",195,"13,912","7,557", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,ATUN ALETA AMARILLA, -   , -   , -   ,4, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,ATUN ALETA LARGA,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,AZULEJO, -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   
+3,CALDERA,BACALAO DE PROFUNDIDAD,2,1,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,BESUGO,1, -   , -   , -   , -   ,1, -   ,3, -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,CABALLA,"1,623",322,200, -   , -   , -   , -   , -   ,132,18,167,7, -   , -   , -   
+3,CALDERA,CAMARON NAILON,"1,959",312, -   ,216,176,74,45,143, -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,CENTOLLA, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,CENTOLLA DEL NORTE,143,59,68, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,CENTOLLON DEL NORTE, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,JIBIA O CALAMAR ROJO, -   , -   , -   ,20,144, -   , -   , -   ,30, -   , -   , -   ,17, -   , -   
+3,CALDERA,JUREL,"3,678",855,518, -   , -   , -   , -   , -   ,"2,755",50,423,68, -   , -   , -   
+3,CALDERA,LANGOSTA ENANA,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,LANGOSTINO AMARILLO,48,29,1,1,1,3,1,2, -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,LANGOSTINO COLORADO,"1,382",378,190,146,16,24,24,83, -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,MERLUZA COMUN,1,19,4,6,4,3,2,9, -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,PESCADO NO CLASIFICADO, -   , -   , -   ,1, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,SARDINA ESPAÑOLA,"1,191",616,19, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CALDERA,TIBURON O MARRAJO,1,6,1,1,4,8,2,4,6,7,10, -   , -   , -   , -   
+3,CALDERA,VINCIGUERRIA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,61, -   , -   
+3,CHAÑARAL,CAMARON NAILON, -   , -   ,28, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CHAÑARAL,CENTOLLA DEL NORTE,4,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CHAÑARAL,JIBIA O CALAMAR ROJO, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CHAÑARAL,LANGOSTINO COLORADO, -   , -   ,313, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,CHAÑARAL,MERLUZA COMUN, -   , -   ,7, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,HUASCO,ANCHOVETA, -   , -   , -   , -   , -   , -   , -   , -   ,14, -   , -   , -   , -   , -   , -   
+3,HUASCO,BACALAO DE PROFUNDIDAD, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,HUASCO,BESUGO, -   , -   ,3, -   ,1, -   , -   ,1,1, -   , -   , -   , -   , -   , -   
+3,HUASCO,CAMARON NAILON,168,102,98,125,72,21,14,102,79,58,6,10, -   , -   , -   
+3,HUASCO,JIBIA O CALAMAR ROJO, -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+3,HUASCO,JUREL, -   , -   , -   , -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   
+3,HUASCO,LANGOSTINO AMARILLO,973,396, -   ,96,143,75,195,27,55,59,44, -   ,14, -   , -   
+3,HUASCO,LANGOSTINO COLORADO,28, -   ,40, -   , -   ,6,54,192,54,2,2, -   , -   , -   , -   
+3,HUASCO,MERLUZA COMUN,4,12,4,2,7,4,10,10,7,4, -   , -   , -   , -   , -   
+4,COQUIMBO,ALBACORA O PEZ ESPADA,561,"1,089",122,10,30,52, -   ,5,162,84,9,35,26,34, -   
+4,COQUIMBO,ALBACORA O PEZ ESPADA / IVI HEHEU, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,33
+4,COQUIMBO,ALFONSINO, -   , -   , -   , -   , -   , -   , -   , -   ,15, -   , -   ,2, -   , -   , -   
+4,COQUIMBO,ANCHOVETA,"14,290",12,7,"13,774","18,953","10,940","11,307","6,706","4,261","6,663","6,700","3,349", -   , -   , -   
+4,COQUIMBO,ATUN ALETA AMARILLA,1,2,2, -   , -   , -   ,2, -   ,3, -   , -   , -   , -   , -   , -   
+4,COQUIMBO,ATUN OJOS GRANDES,6,5,1,2, -   ,1, -   , -   ,1, -   , -   , -   , -   , -   , -   
+4,COQUIMBO,AZULEJO,25,235,58,2,7,5, -   , -   ,48,18,1,1, -   , -   ,18
+4,COQUIMBO,BACALADILLO O MOTE, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,394, -   , -   , -   
+4,COQUIMBO,BACALAO DE PROFUNDIDAD, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+4,COQUIMBO,"BACALAO I.PASCUA,ATUN ESCOFINA/KONSO", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1
+4,COQUIMBO,BESUGO, -   ,3,19,9,26,29,3,127,10,9,1, -   , -   , -   , -   
+4,COQUIMBO,CABALLA,"2,478",999,"2,530","1,824","1,151",24,"1,395",101,"1,641","2,038","1,714",466,266,798,15
+4,COQUIMBO,CAMARON NAILON,"1,192","2,170","1,792",762,897,941,742,659,998,"1,086",738,457,495,231,185
+4,COQUIMBO,CENTOLLA DEL NORTE,2, -   , -   , -   ,6, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   
+4,COQUIMBO,CONGRIO DORADO, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+4,COQUIMBO,GAMBA, -   ,1, -   ,5,8,2,1, -   ,5,3,1, -   , -   , -   , -   
+4,COQUIMBO,JIBIA O CALAMAR ROJO, -   ,1, -   , -   ,48,69, -   ,2,38,11,95,156,28,24, -   
+4,COQUIMBO,JUREL,"32,926","16,851","7,725","6,106","2,356",311,"3,488","2,192","22,362","22,820","24,358","27,536","29,749","22,753","1,453"
+4,COQUIMBO,JUREL FINO, -   , -   , -   , -   , -   , -   , -   , -   ,81, -   , -   , -   , -   , -   , -   
+4,COQUIMBO,KONSO, -   , -   , -   , -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   
+4,COQUIMBO,LANGOSTINO AMARILLO,"1,965",927,389,"1,261",655,"1,019",639,456,678,407,488,553,704,172,820
+4,COQUIMBO,LANGOSTINO COLORADO,301,570,643,701,650,657,537,640,578,367,375,72,96,96,96
+4,COQUIMBO,MACHUELO O TRITRE,136, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+4,COQUIMBO,MARLIN, -   , -   ,4, -   , -   , -   , -   , -   ,1, -   , -   , -   ,1, -   ,1
+4,COQUIMBO,MERLUZA COMUN,1,129,50,42,76,77,67,55,84,61,48,31,26,3,2
+4,COQUIMBO,PALOMETA, -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+4,COQUIMBO,PESCADO NO CLASIFICADO, -   ,6,1, -   ,1,1, -   , -   , -   , -   , -   , -   ,19,33,1
+4,COQUIMBO,PEZ SOL, -   , -   , -   , -   , -   , -   , -   , -   ,4,3, -   , -   , -   , -   ,1
+4,COQUIMBO,SARDINA COMUN,14, -   , -   , -   , -   , -   ,17, -   , -   , -   ,"1,175",520, -   , -   , -   
+4,COQUIMBO,SARDINA ESPAÑOLA,237,14,5,67,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+4,COQUIMBO,SIERRA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2,2,10, -   
+4,COQUIMBO,TIBURON O MARRAJO,55,121,20, -   ,5,7, -   ,4,26,9,1, -   ,1,3, -   
+4,COQUIMBO,TIBURON O MARRAJO DENTUDO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,4
+4,COQUIMBO,VIDRIOLA O TOREMO,12,75,5,1,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+4,COQUIMBO,"VIDRIOLA, PALOMETA, DORADO O TOREMO", -   , -   , -   , -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   
+4,LOS VILOS,ANCHOVETA, -   , -   , -   , -   ,271, -   , -   , -   , -   , -   ,54, -   , -   , -   , -   
+4,LOS VILOS,CAMARON NAILON, -   ,1, -   , -   ,28,77,28,15,19,2,40,3,38,28,7
+4,LOS VILOS,LANGOSTINO AMARILLO,39, -   ,3, -   ,482,773,"1,197","1,326","1,373","1,379","1,522","1,173","1,243",864,213
+4,LOS VILOS,LANGOSTINO COLORADO, -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   ,405,"1,138",838,16
+4,LOS VILOS,MERLUZA COMUN, -   , -   , -   , -   , -   ,43,39,104,37,21,39,36,46,5, -   
+5,QUINTERO,BESUGO, -   , -   , -   ,25,8,1,1, -   ,6,5,3,1, -   , -   , -   
+5,QUINTERO,CAMARON NAILON,723,"1,223","1,097","1,009",882,"1,387","1,392","1,351","1,432","1,414","1,353","1,417","1,421","1,342","1,667"
+5,QUINTERO,CAMARON NAVAJA, -   , -   , -   , -   ,49, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,QUINTERO,CONGRIO DORADO, -   , -   ,1,2,6, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,QUINTERO,CONGRIO NEGRO, -   ,2, -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   
+5,QUINTERO,GAMBA,17,125,300,259,95,112,7,33,80,46,32,21,47,54,66
+5,QUINTERO,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   ,8, -   , -   , -   , -   , -   , -   , -   , -   
+5,QUINTERO,LANGOSTINO AMARILLO,304,164,42,172,107,118,133,169,115,157,69,122,99,85,506
+5,QUINTERO,LANGOSTINO COLORADO, -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   ,526
+5,QUINTERO,MERLUZA COMUN,289,48,57,31,5,21,20,33,51,59,52,72,48,17,1
+5,QUINTERO,RAYA ESPINOSA, -   , -   , -   , -   , -   , -   ,10, -   ,2, -   , -   , -   , -   , -   , -   
+5,QUINTERO,RAYA MOTEADA, -   , -   , -   , -   , -   , -   ,4, -   , -   , -   , -   , -   , -   , -   , -   
+5,QUINTERO,RAYA NEGRA, -   , -   , -   , -   , -   , -   ,22,60,42, -   , -   , -   , -   , -   , -   
+5,QUINTERO,RAYA VOLANTIN, -   , -   ,3,539,350,165,102,1, -   ,17,29, -   ,5, -   , -   
+5,SAN ANTONIO,AGUJILLA,5, -   , -   , -   , -   , -   , -   ,20, -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,ALBACORA O PEZ ESPADA,14,7,28,18,18,23,25,15,61,84,22,60,51, -   , -   
+5,SAN ANTONIO,ALBACORA O PEZ ESPADA / IVI HEHEU, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,58
+5,SAN ANTONIO,ANCHOVETA,"21,388", -   ,669,"1,298","3,951","7,016","5,746","1,869",46,"1,462",203,228, -   , -   , -   
+5,SAN ANTONIO,ATUN ALETA AMARILLA, -   , -   , -   , -   , -   , -   , -   , -   ,1,1, -   , -   , -   , -   , -   
+5,SAN ANTONIO,AZULEJO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   , -   
+5,SAN ANTONIO,BACALADILLO O MOTE, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,20
+5,SAN ANTONIO,BACALAO DE PROFUNDIDAD,18,6,5, -   ,3,2,1, -   , -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,BESUGO,11,8, -   ,17,1,2,2, -   ,2,3,2, -   , -   , -   , -   
+5,SAN ANTONIO,BLANQUILLO,15, -   , -   ,1,5,1, -   ,2,2, -   , -   ,1,5,8,2
+5,SAN ANTONIO,CABALLA,59, -   , -   , -   ,73,22, -   ,23,5,95,42,117, -   , -   , -   
+5,SAN ANTONIO,CAMARON NAILON,3, -   ,5,154,194,287,246,129,317,393,463,440,645,459,694
+5,SAN ANTONIO,COJINOBA DEL NORTE,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,COJINOBA DEL SUR, -   , -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,CONGRIO DORADO,1, -   , -   , -   ,6, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,CONGRIO NEGRO,25,2,15,18,14,9,29,3,12,27,5,3,3,6,4
+5,SAN ANTONIO,GAMBA, -   , -   ,2,59,2,6,1,9,2,8,4,3,17,10, -   
+5,SAN ANTONIO,JIBIA O CALAMAR ROJO, -   ,1, -   ,3,427,359,136,10,1,26,95,21, -   , -   ,2
+5,SAN ANTONIO,JUREL,"1,770", -   , -   , -   , -   ,619,2,152,137,920,439,466, -   , -   , -   
+5,SAN ANTONIO,LANGOSTINO AMARILLO,89, -   , -   , -   ,13,53,757,784,"2,086","1,788","1,370",986,974,620,451
+5,SAN ANTONIO,LANGOSTINO COLORADO,141, -   , -   , -   , -   , -   ,2,18,57,142,146,935,812,"1,743","1,077"
+5,SAN ANTONIO,MERLUZA COMUN,"10,676","15,179","11,950","12,735","6,621","2,312","3,259","5,421","2,090","1,097",938,"1,206","1,786","2,374","1,359"
+5,SAN ANTONIO,MERLUZA DE COLA,1, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,027", -   , -   , -   , -   
+5,SAN ANTONIO,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   , -   ,28, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,PEJEGALLO,31,2,15,14,18,6,11,7,8,5,1,1, -   ,2,6
+5,SAN ANTONIO,PEJEZORRO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   
+5,SAN ANTONIO,PESCADO NO CLASIFICADO,2, -   , -   , -   ,7,2,6,6,1,2,3,2,2,3, -   
+5,SAN ANTONIO,PEZ SOL, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   
+5,SAN ANTONIO,PICHIBUENO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,7
+5,SAN ANTONIO,RAYA VOLANTIN, -   , -   , -   ,8,37, -   , -   , -   , -   , -   , -   , -   ,2, -   , -   
+5,SAN ANTONIO,REINETA,17, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,SARDINA COMUN,"6,542", -   ,186,21,"2,555",272,"2,010",343,12,"2,356","1,646","1,230", -   , -   , -   
+5,SAN ANTONIO,SARDINA ESPAÑOLA,9, -   , -   , -   ,7,32,5, -   , -   , -   , -   , -   , -   , -   , -   
+5,SAN ANTONIO,SIERRA, -   , -   , -   , -   , -   , -   , -   , -   ,1,2, -   , -   , -   , -   , -   
+5,SAN ANTONIO,TIBURON O MARRAJO, -   ,2, -   ,1,5, -   ,2,1,3,8,2,5,7, -   , -   
+5,SAN ANTONIO,TOLLO, -   , -   ,7, -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   ,1
+5,VALPARAISO,ALBACORA O PEZ ESPADA,206,33,58,57,6,42,26, -   ,29,28,4, -   , -   , -   , -   
+5,VALPARAISO,ALFONSINO, -   , -   , -   ,5, -   ,5, -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,ANCHOVETA, -   ,111, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,ATUN OJOS GRANDES,3, -   , -   , -   , -   ,1,2, -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,AZULEJO,2,12,14,6, -   , -   , -   ,1,21,6, -   , -   , -   , -   , -   
+5,VALPARAISO,BACALAO DE PROFUNDIDAD,3,5,10,1,7,3,5, -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,BESUGO,105,38, -   ,18,38,"1,094",365,5,1, -   ,2, -   , -   , -   , -   
+5,VALPARAISO,BONITO, -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,CAMARON NAILON,31,47,49,318,385,189,268,357,338,183,297,303,150,235, -   
+5,VALPARAISO,CANGREJO DORADO DE J. FERNANDEZ, -   , -   , -   , -   ,8, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,CONGRIO DORADO,11, -   , -   ,2,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,CONGRIO NEGRO, -   , -   , -   ,15,4, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,GAMBA, -   ,1,19,189,26,62,124,84, -   , -   ,1, -   ,1, -   , -   
+5,VALPARAISO,JIBIA O CALAMAR ROJO, -   , -   ,2,2,5,9,4, -   , -   , -   ,14,3, -   , -   , -   
+5,VALPARAISO,LANGOSTINO AMARILLO,162,5,130, -   ,14,2,200,390,200,364,196,592,102,117, -   
+5,VALPARAISO,LANGOSTINO COLORADO,46, -   , -   , -   , -   , -   , -   , -   , -   ,16,93,140,218,351, -   
+5,VALPARAISO,MERLUZA COMUN,"8,422","2,905",585,"2,272","2,532",447,428,238,250,223,441,221,156,33, -   
+5,VALPARAISO,MERLUZA DE COLA,10, -   , -   , -   ,1, -   ,1, -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,ORANGE ROUGHY, -   , -   , -   ,24, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,PEJEGALLO, -   , -   , -   ,2,9, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,PESCADO NO CLASIFICADO,3,2,2,1, -   ,1,2, -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,PULPO, -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,RAYA ESPINOSA, -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,RAYA NEGRA, -   , -   , -   , -   , -   , -   , -   , -   , -   ,36, -   , -   ,34, -   , -   
+5,VALPARAISO,RAYA VOLANTIN, -   , -   ,1,143,81,18,2,30, -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,REINETA, -   ,96,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,SIERRA, -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+5,VALPARAISO,TIBURON O MARRAJO,6,11,9, -   ,1,3,1,4,3,7, -   , -   , -   , -   , -   
+7,CONSTITUCION,ALBACORA O PEZ ESPADA,1,8, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+7,CONSTITUCION,BACALAO DE PROFUNDIDAD,47,11,4, -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   
+7,CONSTITUCION,CONGRIO DORADO, -   ,15,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+7,CONSTITUCION,CONGRIO NEGRO,49,151,50, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+7,CONSTITUCION,GAMBA, -   , -   , -   ,1, -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   
+7,CONSTITUCION,MERLUZA COMUN, -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   , -   , -   , -   , -   
+7,CONSTITUCION,RAYA VOLANTIN, -   ,2,18, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+7,CONSTITUCION,REINETA, -   ,33, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,AGUJILLA,35,128, -   , -   , -   ,1, -   , -   , -   , -   , -   ,1, -   , -   , -   
+8,CORONEL,ALFONSINO, -   , -   , -   , -   ,807,11,4,18,100,29,449, -   , -   , -   , -   
+8,CORONEL,ANCHOVETA,"55,289","5,853","12,314","13,365","29,749","40,427","45,858","71,530","64,726","46,916","31,143","6,847","10,027","2,775","3,714"
+8,CORONEL,BACALADILLO O MOTE, -   , -   , -   , -   , -   ,"2,123",92, -   ,39, -   ,11,674,384,"4,629","1,693"
+8,CORONEL,BESUGO, -   ,25, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,BONITO,6,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,CABALLA,"7,910","74,303","40,076","42,931","86,078","49,749","65,866","68,187","5,921","9,862","3,212","1,897",814,"5,248","4,873"
+8,CORONEL,COJINOBA DEL NORTE,4, -   ,1, -   , -   , -   , -   ,12,20, -   ,1, -   , -   , -   , -   
+8,CORONEL,COJINOBA DEL SUR,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,COJINOBA MOTEADA, -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,CONGRIO NEGRO, -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,JIBIA O CALAMAR ROJO, -   ,129,33,526,"1,964","3,916","3,141","19,741","3,145",450,"40,373","2,667",249,"2,841","15,958"
+8,CORONEL,JUREL,"365,090","438,629","375,054","248,310","314,622","409,937","385,914","403,755","50,492","123,735","32,320","61,255","110,646","111,738","156,514"
+8,CORONEL,JUREL FINO, -   , -   , -   , -   , -   ,2, -   ,125, -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,LISA, -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,MACHUELO O TRITRE,14,11,96,6, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,MERLUZA COMUN, -   ,42,69,15, -   , -   , -   ,1,6, -   ,417, -   , -   , -   , -   
+8,CORONEL,MERLUZA DE COLA,"29,481","45,956","25,989","12,727","1,425","10,093","1,589", -   ,897, -   , -   ,303, -   ,"6,668", -   
+8,CORONEL,MERLUZA DE TRES ALETAS,9, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,ORANGE ROUGHY, -   ,30, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,PALOMETA,17, -   ,3,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,PAMPANITO, -   , -   ,10, -   , -   ,22,21,15, -   , -   , -   , -   ,21, -   ,11
+8,CORONEL,PEJEGALLO, -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,CORONEL,PESCADO NO CLASIFICADO, -   , -   , -   , -   ,29, -   , -   , -   , -   , -   , -   , -   ,10,72,54
+8,CORONEL,PEZ RUBIO, -   , -   , -   , -   , -   , -   , -   , -   ,907,3,91, -   , -   , -   , -   
+8,CORONEL,REINETA,9, -   ,3, -   , -   , -   , -   , -   ,5, -   , -   , -   , -   ,9,5
+8,CORONEL,SARDINA COMUN,"157,530","12,562","7,182","6,863","15,979","20,016","23,231","40,577","93,056","97,393","73,810","103,838","111,257","27,951","41,051"
+8,CORONEL,SARDINA ESPAÑOLA,266,570,278, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,8
+8,CORONEL,SIERRA,1,91,93,52,70,374,77,10,64,22,80,34, -   ,2,1
+8,LIRQUEN,BESUGO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   
+8,LIRQUEN,MERLUZA COMUN, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,684, -   , -   , -   , -   
+8,LIRQUEN,MERLUZA DE COLA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   
+8,LOTA,ANCHOVETA, -   , -   , -   , -   , -   , -   ,"7,317","2,582","4,243","1,953","14,726","3,015",751,493,144
+8,LOTA,BACALADILLO O MOTE, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,5,765,3,"3,109",23
+8,LOTA,CABALLA, -   , -   , -   , -   , -   , -   ,"6,988","3,481",202,294,363,"1,505",48,78,28
+8,LOTA,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   ,676,"6,645", -   , -   ,"18,854","1,148",182,20,1
+8,LOTA,JUREL, -   , -   , -   , -   , -   ,"1,970","31,144","16,851","2,447","4,702","8,494","12,037","3,466","3,586","2,243"
+8,LOTA,MERLUZA DE COLA, -   , -   , -   , -   , -   , -   ,3, -   , -   , -   ,"8,670","10,061","3,986","1,110", -   
+8,LOTA,SARDINA COMUN, -   , -   , -   , -   , -   , -   ,"4,284","2,385","8,710","6,612","28,341","19,931","14,265","5,053","7,481"
+8,LOTA,SIERRA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,3, -   , -   
+8,SAN VICENTE,ACHA O HACHA, -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,AGUJILLA,62,11, -   , -   , -   ,10, -   , -   , -   , -   , -   , -   , -   ,5,14
+8,SAN VICENTE,ALBACORA O PEZ ESPADA,11, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,ALFONSINO, -   ,554,220,29,68,49, -   , -   ,287,153,25, -   , -   , -   , -   
+8,SAN VICENTE,ANCHOVETA,"187,081","8,810","27,267","49,559","73,953","76,553","76,996","83,877","104,668","105,549","28,219","2,411","2,354","1,912",637
+8,SAN VICENTE,ATUN ALETA AMARILLA,2, -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,ATUN ALETA LARGA, -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,ATUN OJOS GRANDES, -   , -   , -   , -   , -   ,8, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,AZULEJO, -   , -   , -   , -   , -   ,6, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,BACALADILLO O MOTE, -   , -   , -   , -   , -   ,36, -   , -   , -   , -   , -   ,87,147,"3,281",432
+8,SAN VICENTE,BACALAO DE PROFUNDIDAD,2,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,BESUGO,4,"1,454",102,178,98,291,136,334,180,147,62,73,17,13,1
+8,SAN VICENTE,BLANQUILLO,43, -   , -   , -   , -   , -   ,1, -   ,1,1,1,1, -   , -   , -   
+8,SAN VICENTE,BONITO,15,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,CABALLA,"9,082","80,151","84,216","93,258","138,454","62,625","87,603","76,303","5,941","14,255","4,372","3,469","6,199","9,209","5,279"
+8,SAN VICENTE,CABINZA,7, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1
+8,SAN VICENTE,CABRILLA,8, -   , -   ,2,2,5,5, -   ,1, -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,CALAMAR,1, -   ,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1
+8,SAN VICENTE,CAMARON NAILON,13, -   , -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,CHANCHARRO, -   , -   ,1, -   ,2,1, -   , -   , -   , -   , -   ,1, -   , -   ,13
+8,SAN VICENTE,COCHINILLA, -   ,9, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,COJINOBA DEL NORTE,26, -   , -   , -   , -   , -   , -   ,31,1,2, -   , -   , -   , -   , -   
+8,SAN VICENTE,COJINOBA DEL SUR,2, -   ,13, -   , -   ,4,2, -   ,1, -   , -   , -   ,11, -   , -   
+8,SAN VICENTE,CONGRIO DORADO,11,28,7,6,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,CONGRIO NEGRO,113,21,77,181,147,175,145,18,52,6,38,43,5,5,17
+8,SAN VICENTE,CORVINA,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,13, -   , -   
+8,SAN VICENTE,DORADO,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,DORADO DE ALTURA, -   , -   , -   , -   ,26,4, -   ,2, -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,GAMBA,5,12,6, -   ,17, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,HUAIQUIL O CORVINILLA, -   , -   , -   , -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,JIBIA O CALAMAR ROJO, -   , -   ,203, -   ,"2,837","6,002","2,496","12,716","3,684","2,707","68,866","1,560","4,017","1,428","12,609"
+8,SAN VICENTE,JUREL,"495,956","617,190","643,741","391,426","454,729","360,577","432,412","386,030","87,072","159,293","49,037","39,700","57,510","56,609","71,675"
+8,SAN VICENTE,JUREL FINO, -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,LANGOSTINO COLORADO, -   , -   , -   , -   , -   , -   , -   , -   , -   ,68, -   , -   , -   , -   , -   
+8,SAN VICENTE,LENGUADO, -   , -   , -   , -   , -   , -   , -   , -   ,1,1,3,3, -   , -   , -   
+8,SAN VICENTE,LENGUADO DE OJOS CHICOS,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,LENGUADO OJOS GRANDES, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   
+8,SAN VICENTE,LISA,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,MACHUELO O TRITRE,11, -   , -   , -   ,30,2, -   , -   , -   , -   , -   , -   , -   , -   ,33
+8,SAN VICENTE,MARRAJO DENTUDO, -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,MERLUZA COMUN,"7,160","20,382","30,359","29,971","16,750","15,621","15,830","14,214","20,145","19,896","20,619","17,452","15,241","11,584","8,417"
+8,SAN VICENTE,MERLUZA DE COLA,"36,004","55,900","36,993","9,078","8,224","11,700","15,719","12,969","19,029","24,373","9,873","11,455","12,219","4,700","4,500"
+8,SAN VICENTE,MERLUZA DEL SUR O AUSTRAL, -   ,135,151,69,37,50,41,10,62,28,27,82,39,34,1
+8,SAN VICENTE,ORANGE ROUGHY, -   ,255,168,18,199, -   , -   , -   ,1, -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,PALOMETA,14,1, -   ,6, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,PAMPANITO, -   , -   , -   , -   , -   , -   , -   , -   ,10, -   , -   , -   , -   ,1,135
+8,SAN VICENTE,PEJEGALLO,167,3,2,39,35,10,6,4,1,5,5,2,4,2,1
+8,SAN VICENTE,PEJERREY DE MAR,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,PESCADO NO CLASIFICADO, -   ,3, -   , -   ,5,1, -   , -   ,1, -   , -   ,1,12,192,17
+8,SAN VICENTE,PEZ RUBIO, -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,PEZ SOL, -   , -   , -   , -   , -   ,12, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,RAYA ESPINOSA, -   , -   , -   , -   , -   , -   , -   , -   ,1,5,2,1, -   ,1,1
+8,SAN VICENTE,RAYA VOLANTIN,1, -   ,4, -   , -   , -   , -   , -   ,4,2,5, -   ,2, -   , -   
+8,SAN VICENTE,REINETA,6,64,10,29,43,59,62,11,3, -   ,5,43,26,8,4
+8,SAN VICENTE,ROBALO,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,RONCACHO,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,SARDINA COMUN,"156,297","10,379","13,845","19,570","33,648","14,021","29,546","39,440","104,062","115,146","59,127","55,237","62,602","14,530","22,123"
+8,SAN VICENTE,SARDINA ESPAÑOLA,941,64,746, -   , -   , -   ,80,93,97,41, -   , -   , -   , -   , -   
+8,SAN VICENTE,SIERRA,24,3,99,2,47,34,3,47,29,3,2,4,32, -   , -   
+8,SAN VICENTE,TIBURON O MARRAJO,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,TOLLO,36, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,SAN VICENTE,VINCIGUERRIA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,360, -   , -   
+8,TALCAHUANO,ACHA O HACHA, -   , -   , -   , -   , -   ,4, -   ,1, -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,AGUJILLA,3,"2,345", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,ALBACORA O PEZ ESPADA, -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,ALFONSINO,"3,970","4,569","7,944","9,001","1,933","2,729","2,373","2,610","2,219",927,474,212, -   , -   , -   
+8,TALCAHUANO,ANCHOVETA,"55,047","3,820","12,445","16,316","20,334","26,768","19,209", -   ,120, -   , -   , -   ,120, -   , -   
+8,TALCAHUANO,ANGUILA,4,88, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,ATUN OJOS GRANDES, -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,AZULEJO, -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,BACALAO DE PROFUNDIDAD, -   , -   , -   ,2, -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,BESUGO,"5,653","3,086","1,452","2,918","1,785",757,880,328,148,17,19,1,1,9, -   
+8,TALCAHUANO,BLANQUILLO,14, -   ,1,14,16,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,BONITO,4,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,BROTULA, -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CABALLA,"4,674","49,928","34,562","30,637","61,172","57,652","37,300",200, -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CABINZA,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CABRILLA,5, -   , -   ,2,5,3,1, -   ,1, -   , -   ,1, -   , -   , -   
+8,TALCAHUANO,CABRILLA COMUN,7, -   , -   ,8,5,1,2, -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CACHURRETA, -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CALAMAR,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CAMARON DE TALUD,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CAMARON NAILON,98,1,9, -   ,84,331,889,956,577,601,947,949,656,"1,178",958
+8,TALCAHUANO,CHANCHARRO,12,14, -   ,4,33,18,20,8,1, -   , -   ,2,6, -   , -   
+8,TALCAHUANO,COCHINILLA,"1,384", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,COJINOBA DEL NORTE,90,43,1, -   , -   , -   ,1, -   , -   , -   , -   ,1, -   , -   , -   
+8,TALCAHUANO,COJINOBA DEL SUR,4,5, -   , -   ,15,7,6,6,1, -   , -   ,1,2, -   , -   
+8,TALCAHUANO,COJINOBA MOTEADA,3, -   , -   ,3,18,12, -   ,1,2, -   ,82,3,9, -   , -   
+8,TALCAHUANO,CONGRIO COLORADO,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,CONGRIO DORADO,274,342,66,83,83,34,87,5,5, -   , -   ,54,46, -   , -   
+8,TALCAHUANO,CONGRIO NEGRO,513,425,185,602,470,361,100,10,16,23,32,40,16,13, -   
+8,TALCAHUANO,CORVINA,2, -   , -   , -   , -   ,2,6, -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,DORADO,4, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,DORADO DE ALTURA, -   , -   , -   , -   ,20,49,5,6, -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,GAMBA,110,55,10, -   ,1,6,8,4, -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,JIBIA O CALAMAR ROJO,4, -   ,27,349,706,920,628, -   ,4, -   ,99,"15,060","24,627","4,557","22,538"
+8,TALCAHUANO,JUREL,"166,121","236,155","234,627","103,152","125,094","170,925","166,908","1,159", -   , -   ,5, -   ,170, -   , -   
+8,TALCAHUANO,LANGOSTINO AMARILLO,73, -   ,28, -   ,10,6,14,1,5, -   , -   ,47, -   ,1,17
+8,TALCAHUANO,LANGOSTINO COLORADO,"3,363", -   ,135, -   ,25,20,28,24,21,251,299,64,11,54,80
+8,TALCAHUANO,LENGUADO, -   , -   , -   , -   , -   ,46,45,16,1, -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,LENGUADO DE OJOS CHICOS,15, -   , -   ,20,45, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,MACHUELO O TRITRE,26,37, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,MERLUZA COMUN,"52,363","49,158","46,069","44,398","27,776","19,045","21,661","16,293","10,039","7,868","5,744","7,737","7,355","8,746","1,108"
+8,TALCAHUANO,MERLUZA DE COLA,"9,785","26,244","32,088","26,096","7,771","4,111","3,514","3,625","2,562",524,450,942,"1,198","1,641",417
+8,TALCAHUANO,MERLUZA DE TRES ALETAS,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,MERLUZA DEL SUR O AUSTRAL,33,288,109,441,795,340,169,193,35,44,3,77,264,60,136
+8,TALCAHUANO,ORANGE ROUGHY,"1,139","1,583","1,335","1,206",525,340,259,5, -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,PALOMETA,110,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,PAMPANITO,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,PEJEGALLO,47,73,35,94,332,59,58,5,1,1, -   ,1,2,2, -   
+8,TALCAHUANO,PEJERRATA,4, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,PEJERREY DE MAR, -   , -   , -   , -   , -   , -   , -   ,10, -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,PESCADO NO CLASIFICADO,31, -   , -   , -   ,1,4,2,2,6, -   , -   , -   ,143,2, -   
+8,TALCAHUANO,PEZ RUBIO, -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,PEZ SOL, -   , -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,RAYA AGUILA, -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,RAYA ESPINOSA, -   , -   , -   , -   ,26,12,48,46,5, -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,RAYA MOTEADA, -   , -   , -   , -   ,5, -   ,1, -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,RAYA VOLANTIN,64,98,101,353,273,100,88,25,19, -   , -   ,9,1, -   , -   
+8,TALCAHUANO,REINETA,137,522,12,17,114,74,29,25,2, -   , -   ,11,308,4, -   
+8,TALCAHUANO,SARDINA COMUN,"69,572","6,264","7,213","8,789","13,177","11,304","10,319", -   ,175, -   , -   , -   ,"1,171", -   , -   
+8,TALCAHUANO,SARDINA ESPAÑOLA,18,589, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,SIERRA,88,8,10,4,42,4, -   , -   , -   ,1, -   , -   ,5, -   , -   
+8,TALCAHUANO,TIBURON O MARRAJO, -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,TOLLO,10, -   , -   , -   ,1,2,3, -   , -   , -   , -   , -   , -   , -   , -   
+8,TALCAHUANO,TOLLO DE CACHOS, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   
+8,TALCAHUANO,VINCIGUERRIA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,63, -   , -   
+8,TOME,AGUJILLA, -   ,220, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,ANCHOVETA,"7,146","2,358", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,BROTULA,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,CABALLA,100,"6,012","5,421","8,795","11,945",58, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,CABRILLA,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,CAMARON NAILON,23, -   , -   ,5, -   , -   , -   , -   , -   ,5, -   , -   ,3, -   , -   
+8,TOME,COJINOBA DEL NORTE,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,COJINOBA DEL SUR,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,CONGRIO DORADO,59, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,CONGRIO NEGRO,9, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,JUREL,"24,276","36,205","30,406","30,810","25,596",226, -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,LANGOSTINO AMARILLO,91,2, -   ,9, -   , -   , -   , -   , -   ,215,589,409, -   , -   ,107
+8,TOME,LANGOSTINO COLORADO,"4,780",5, -   , -   , -   , -   , -   , -   , -   ,"2,038","1,423","2,385","3,787","4,559","5,914"
+8,TOME,LENGUADO DE OJOS CHICOS, -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,MACHUELO O TRITRE,88, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,MERLUZA COMUN,"4,633",636, -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   ,2
+8,TOME,MERLUZA DE COLA,139,638, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,MERLUZA DEL SUR O AUSTRAL,493,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,PEJEGALLO,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,RAYA VOLANTIN,24, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,REINETA,27, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,SARDINA COMUN,"4,410",772, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,SARDINA ESPAÑOLA,45,110, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+8,TOME,TOLLO,3, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,ANCHOVETA, -   , -   , -   , -   , -   , -   , -   ,"20,377","8,586","15,217","11,660",452,50,590,73
+14,CORRAL,BACALADILLO O MOTE, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,27,"4,191",25
+14,CORRAL,CABALLA, -   , -   , -   , -   , -   , -   , -   ,464, -   ,41,12, -   , -   , -   , -   
+14,CORRAL,COJINOBA MOTEADA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   
+14,CORRAL,CONGRIO NEGRO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   
+14,CORRAL,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   , -   , -   ,900, -   ,"1,718",9,44, -   , -   
+14,CORRAL,JUREL, -   , -   , -   , -   , -   , -   , -   ,"8,247","1,882","1,368",408,782, -   , -   , -   
+14,CORRAL,MERLUZA COMUN, -   , -   , -   , -   , -   , -   , -   ,480,606,870,"2,356","1,054",287,252, -   
+14,CORRAL,MERLUZA DE COLA, -   , -   , -   , -   , -   , -   , -   ,705,"1,336",80,313,"4,746","2,059", -   , -   
+14,CORRAL,MERLUZA DE TRES ALETAS, -   , -   , -   , -   , -   , -   , -   , -   ,18, -   ,4, -   , -   , -   , -   
+14,CORRAL,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   , -   , -   , -   , -   ,11,98, -   ,21, -   , -   , -   , -   
+14,CORRAL,PAMPANITO, -   , -   , -   , -   , -   , -   , -   ,6, -   , -   , -   , -   , -   ,52, -   
+14,CORRAL,PEJEGALLO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   
+14,CORRAL,RAYA AGUILA, -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,REINETA, -   , -   , -   , -   , -   , -   , -   ,7, -   , -   , -   ,2, -   , -   , -   
+14,CORRAL,SARDINA COMUN, -   , -   , -   , -   , -   , -   , -   ,"12,406","16,937","29,754","30,372","18,731","13,639","6,747","4,552"
+14,CORRAL,SIERRA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   
+14,CORRAL,VINCIGUERRIA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,595, -   , -   
+14,VALDIVIA,ANCHOVETA, -   , -   , -   , -   , -   , -   , -   , -   , -   ,210, -   , -   , -   , -   , -   
+14,VALDIVIA,CABALLA, -   , -   , -   , -   , -   , -   , -   ,27, -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,CHANCHARRO, -   , -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,CONGRIO NEGRO, -   , -   , -   , -   , -   , -   , -   ,3, -   ,2, -   , -   , -   , -   , -   
+14,VALDIVIA,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,8, -   , -   
+14,VALDIVIA,JUREL, -   , -   , -   , -   , -   , -   , -   ,858, -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,MERLUZA COMUN, -   , -   , -   , -   , -   , -   , -   ,"2,178","1,798","3,416","2,454",664,465,602, -   
+14,VALDIVIA,PEJEGALLO, -   , -   , -   , -   , -   , -   , -   ,134,47, -   , -   , -   , -   , -   , -   
+14,VALDIVIA,REINETA, -   , -   , -   , -   , -   , -   , -   ,40,1, -   , -   , -   , -   , -   , -   
+14,VALDIVIA,SARDINA COMUN, -   , -   , -   , -   , -   , -   , -   , -   , -   ,16,3,139, -   , -   , -   
+14,VALDIVIA,SIERRA, -   , -   , -   , -   , -   , -   , -   ,8, -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,VINCIGUERRIA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,408, -   , -   
+10,ANCUD,ANCHOVETA, -   , -   , -   , -   ,228, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,ANCUD,BACALAO DE PROFUNDIDAD,46,2, -   ,3, -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,ANCUD,CABALLA, -   , -   , -   , -   ,63, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,ANCUD,CAMARON NAILON, -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,ANCUD,CENTOLLA,5,24, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,ANCUD,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,98, -   , -   , -   , -   
+10,ANCUD,JUREL, -   , -   , -   , -   ,69, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,ANCUD,MERLUZA DE COLA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,11, -   , -   , -   , -   
+10,ANCUD,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,19, -   , -   , -   , -   
+10,ANCUD,REINETA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   
+10,CALBUCO,ANCHOVETA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"3,370",383, -   , -   , -   
+10,CALBUCO,CENTOLLA, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   
+10,CALBUCO,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,311,171, -   , -   
+10,CALBUCO,MERLUZA DE COLA, -   , -   , -   , -   , -   , -   ,121, -   , -   ,563, -   ,"2,225","5,881", -   , -   
+10,CALBUCO,SARDINA COMUN, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"21,199","3,115", -   , -   , -   
+14,CORRAL,ANCHOVETA, -   ,"11,100","7,943","5,824","3,649","12,137","13,399", -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,BACALADILLO O MOTE, -   , -   , -   , -   , -   ,22, -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,BESUGO, -   , -   , -   , -   , -   ,2,4, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,CABALLA, -   ,"3,489","2,462","2,462","6,703","2,282","3,350", -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,CENTOLLA, -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,CHANCHARRO, -   , -   , -   , -   ,5,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,COCHINILLA, -   , -   , -   , -   , -   ,159, -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,COJINOBA DEL NORTE, -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,COJINOBA DEL SUR, -   , -   ,10, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,JUREL, -   ,"25,956","26,743","14,829","21,508","14,281","33,559", -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,MACHUELO O TRITRE, -   ,20,81, -   , -   , -   ,79, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,MERLUZA COMUN, -   ,23,1, -   ,603,"1,396",661, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,MERLUZA DE COLA, -   ,"6,852","1,713",14,"1,684",845,"1,040", -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   , -   , -   ,139,246, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,PEJEGALLO, -   , -   , -   , -   ,46,4,1, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,RAYA ESPINOSA, -   , -   , -   , -   , -   ,3,1, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,RAYA VOLANTIN, -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,REINETA, -   , -   , -   , -   ,32,30,1, -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,RONCACHO, -   ,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,SARDINA COMUN, -   ,"18,924","8,162","5,067","5,750","14,424","11,951", -   , -   , -   , -   , -   , -   , -   , -   
+14,CORRAL,SIERRA, -   , -   ,55, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,OSORNO,ANCHOVETA, -   , -   , -   , -   , -   , -   , -   , -   , -   ,21, -   , -   , -   , -   , -   
+10,PUERTO MONTT,ALFONSINO,285, -   , -   ,105, -   , -   , -   ,20, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,BACALAO DE PROFUNDIDAD,102,63, -   ,14,3,2,18, -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,BESUGO,2, -   , -   , -   ,4,6, -   ,3, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,CENTOLLA,224,198,155,116,94,47,59,132,102,104,130,115,86,15,20
+10,PUERTO MONTT,CHANCHARRO,7, -   , -   , -   ,1,8,5,3, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,COJINOBA DEL NORTE,13,4, -   ,3, -   , -   ,7,2, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,COJINOBA DEL SUR,10,4, -   ,3,1,2,18,5, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,COJINOBA MOTEADA, -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,CONGRIO DORADO,374,182,8,41,17,11,188,23, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,DORADO DE ALTURA, -   , -   , -   , -   ,6, -   , -   ,11, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,JUREL,1, -   ,333, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,MERLUZA COMUN,82, -   , -   , -   ,522,667,850,642, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,MERLUZA DE COLA,27,689,63,16,605,"2,620","2,774","1,378", -   , -   , -   , -   ,104, -   , -   
+10,PUERTO MONTT,MERLUZA DE TRES ALETAS, -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,MERLUZA DEL SUR O AUSTRAL,921,130,41,172,77,466,233,331, -   , -   , -   , -   ,29, -   , -   
+10,PUERTO MONTT,PALOMETA,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,PEJEGALLO, -   , -   , -   , -   ,4,5,9, -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,PEJERRATA, -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,PESCADO NO CLASIFICADO,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,RAYA VOLANTIN,123,12,2,1, -   ,2,2,5, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,REINETA, -   , -   , -   , -   ,8,7,7,7, -   , -   , -   , -   , -   , -   , -   
+10,PUERTO MONTT,TOLLO,8, -   , -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,BACALAO DE PROFUNDIDAD,166,63,34,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,BESUGO, -   , -   , -   , -   , -   ,3,8, -   , -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,CENTOLLA, -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   , -   
+10,QUELLON,COJINOBA DEL NORTE, -   , -   , -   , -   ,16, -   ,7, -   , -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,COJINOBA DEL SUR, -   , -   , -   , -   ,15,9,4,15, -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,COJINOBA MOTEADA, -   , -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,CONGRIO DORADO, -   , -   , -   , -   ,2,1,1,3, -   , -   ,1, -   , -   , -   , -   
+10,QUELLON,DORADO DE ALTURA, -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,MERLUZA COMUN, -   , -   , -   , -   , -   ,31,9, -   , -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,MERLUZA DE COLA, -   , -   , -   , -   ,984,"4,695","2,461","1,878", -   , -   ,87, -   , -   , -   , -   
+10,QUELLON,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   , -   ,98,311,100,71, -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,RAYA VOLANTIN, -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   
+10,QUELLON,REINETA, -   , -   , -   , -   ,4,11,7,1, -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,ANCHOVETA,"9,453", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,BACALAO DE PROFUNDIDAD,32,19, -   ,4, -   ,2,7, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,CABALLA,87, -   , -   , -   ,135, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,CABRILLA, -   , -   , -   , -   ,2,9,1, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,CENTOLLA,122, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,CHANCHARRO, -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,COJINOBA DEL SUR, -   , -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,CONGRIO NEGRO, -   , -   , -   , -   ,1,5, -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,JIBIA O CALAMAR ROJO, -   , -   , -   , -   ,1,3, -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,JUREL,"10,999", -   , -   , -   ,463, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,MERLUZA COMUN,367, -   , -   , -   ,"2,414","3,152",839, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,MERLUZA DE COLA,11, -   , -   , -   ,36, -   ,81, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   , -   , -   , -   ,15, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,PEJEGALLO, -   , -   , -   , -   ,60,82,10, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,RAYA VOLANTIN,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,REINETA, -   , -   , -   , -   ,4,29,16, -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,SARDINA COMUN,"37,667", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,SARDINA ESPAÑOLA,10, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+14,VALDIVIA,SIERRA,1, -   , -   , -   ,2,4, -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,ALFONSINO,111,1, -   , -   ,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,BACALAO DE PROFUNDIDAD,22, -   , -   ,5, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,BESUGO,15,34,7, -   , -   ,22, -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,BLANQUILLO,4, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,BROTULA,24,37,18,2,392,760,367,3, -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,CABRILLA,10,1, -   , -   , -   ,1,4, -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,CABRILLA COMUN,1, -   , -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,CALAMAR,1, -   ,14, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,CHANCHARRO,14,57,10,9,13,35,53,76, -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,COJINOBA DEL NORTE,246,366,388,203,511,155,419,10, -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,COJINOBA DEL SUR,210,145,155,202,139,146,132,20, -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,COJINOBA MOTEADA, -   , -   , -   , -   , -   ,2,21,415,56, -   , -   , -   , -   , -   , -   
+11,AYSEN,CONGRIO COLORADO,2, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,CONGRIO DORADO,"1,628","1,982","1,623",876,711,178,736,216,7, -   , -   , -   , -   , -   , -   
+11,AYSEN,CONGRIO NEGRO,1, -   , -   , -   ,1,1, -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,DORADO DE ALTURA, -   , -   , -   , -   ,3,4,2,2,1, -   , -   , -   , -   , -   , -   
+11,AYSEN,JIBIA O CALAMAR ROJO,1,1, -   , -   ,37,22,4, -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,MERLUZA COMUN,844,446,67,120,35,37,10,3, -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,MERLUZA DE COLA,766,"8,333","10,488","12,843","17,041","14,970","14,055","10,529","6,395",491, -   , -   , -   , -   , -   
+11,AYSEN,MERLUZA DE TRES ALETAS,2, -   , -   , -   ,70,67,495, -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,MERLUZA DEL SUR O AUSTRAL,"7,235","5,587","4,726","4,483","3,614","3,924","2,935","2,353","1,800",95, -   , -   , -   , -   , -   
+11,AYSEN,ORANGE ROUGHY,334, -   , -   ,1,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,PALOMETA,4, -   ,2,4, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,PEJEGALLO,10,2,5,4,2,3,1, -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,PESCADO NO CLASIFICADO,10, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,RAYA VOLANTIN,193,205,122,106,106,49, -   ,60, -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,REINETA,25,12,9,1,32,26,52,77,14, -   , -   , -   , -   , -   , -   
+11,AYSEN,SIERRA, -   , -   ,1, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+11,AYSEN,TOLLO,7,9,1,1,4,13,35,26,8, -   , -   , -   , -   , -   , -   
+11,CHACABUCO,BROTULA, -   , -   , -   , -   , -   , -   , -   ,5,1,5,3,5,1,5,37
+11,CHACABUCO,CABRILLA, -   , -   , -   , -   , -   , -   , -   , -   , -   ,1, -   , -   , -   , -   , -   
+11,CHACABUCO,CHANCHARRO, -   , -   , -   , -   , -   , -   , -   ,58,26,28,19,95,25,6,1
+11,CHACABUCO,COJINOBA DEL NORTE, -   , -   , -   , -   , -   , -   ,3, -   , -   , -   , -   , -   ,1, -   , -   
+11,CHACABUCO,COJINOBA DEL SUR, -   , -   , -   , -   , -   , -   , -   ,28,35,18,13,13,24,29, -   
+11,CHACABUCO,COJINOBA DEL SUR O AZUL, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,12
+11,CHACABUCO,COJINOBA MOTEADA, -   , -   , -   , -   , -   , -   , -   ,180,120,394,174,296,301,637,580
+11,CHACABUCO,CONGRIO DORADO, -   , -   , -   , -   , -   , -   , -   ,186,180,165,531,382,359,189,62
+11,CHACABUCO,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,477,"1,857",56,99,13
+11,CHACABUCO,MERLUZA COMUN, -   , -   , -   , -   , -   , -   , -   , -   ,1,1,9,1, -   , -   , -   
+11,CHACABUCO,MERLUZA DE COLA, -   , -   , -   , -   , -   , -   ,78,817,"8,453","15,168","16,465","11,551","8,927","11,691","11,839"
+11,CHACABUCO,MERLUZA DE TRES ALETAS, -   , -   , -   , -   , -   , -   , -   , -   ,57, -   ,1,120,269,"1,384","1,127"
+11,CHACABUCO,MERLUZA DEL SUR O AUSTRAL, -   , -   , -   , -   , -   , -   , -   ,341,"2,103","3,453","3,702","3,691","4,347","6,081","2,861"
+11,CHACABUCO,RAYA VOLANTIN, -   , -   , -   , -   , -   , -   , -   ,37,81,7, -   ,141, -   , -   , -   
+11,CHACABUCO,REINETA, -   , -   , -   , -   , -   , -   , -   ,6,23,77,56,"2,979","2,359",666,"2,871"
+11,CHACABUCO,TOLLO, -   , -   , -   , -   , -   , -   , -   ,10,16,3,1, -   ,4, -   , -   
+11,CHACABUCO,"VIDRIOLA, PALOMETA, DORADO O TOREMO", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,13,3, -   , -   
+11,CISNES,JIBIA O CALAMAR ROJO, -   , -   , -   , -   , -   , -   , -   ,779, -   , -   , -   , -   , -   , -   , -   
+12,PUERTO NATALES,BACALAO DE PROFUNDIDAD, -   , -   , -   ,7, -   ,3,96, -   , -   , -   , -   , -   , -   , -   , -   
+12,PUERTO WILLIAMS,BACALAO DE PROFUNDIDAD, -   ,38,80,63,52, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+12,PUNTA ARENAS,BACALAO DE PROFUNDIDAD,440,76,40,3,13, -   ,13, -   , -   , -   , -   , -   , -   , -   , -   
+12,PUNTA ARENAS,CONGRIO DORADO,34, -   ,35, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+12,PUNTA ARENAS,MERLUZA DEL SUR O AUSTRAL, -   , -   ,13, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+12,PUNTA ARENAS,ORANGE ROUGHY,9, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   

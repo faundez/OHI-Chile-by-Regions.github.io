@@ -1,12 +1,28 @@
 ---
-title: "KUNI FELLOWSHIP PROPOSAL"
+title: "OHI_Presentation"
+author: "Patricia Faundez"
+date: "August 19, 2016"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+---
+
+```{r}
+
+Abstract
+There are three fundamental questions we must be able to answer to effectively manage wildlife populations: (1) what is the baseline size of the population? (2) how has the size of the population changed? and (3) how vulnerable is the population to exploitation? It follows from this that we cannot effectively manage the marine environment without knowledge of what it looked like in a pristine state, but human impacts have wreaked such havoc on the ocean that it is often impossible to accurately characterize marine populations pre-exploitation. I use the unique setting of Palmyra Atoll, a remote U.S. National Wildlife Refuge in the central Pacific Ocean, to describe the population dynamics, ecological characteristics, and behavior of reef sharks absent significant human impacts. I use a combination of extensive field sampling and spatially explicit analytical tools to resolve a set of ecological debates regarding the trophic structure of coral reef communities, the drivers of life history variability, and the ecological effects of non-consumptive human impacts on marine predators. Ultimately, I will show that even healthy predator populations may be more precarious than previously thought, but that humans can interact with marine predators with minimal behavioral repercussions.
+
+```
+
+
+#title: "KUNI FELLOWSHIP PROPOSAL"
 author: "Patricia Faundez"
 date: "February 17, 2016"
 output:
   html_document:
     toc: true
     toc_depth: 4
----
 
 ####Maping mariculture harvest in the world (data from, https://github.com/OHI-Science/ohi-global)
 

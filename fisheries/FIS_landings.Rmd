@@ -1,0 +1,205 @@
+---
+title: "Fisheries landings for species with stock assessment"
+author: "Patricia Faundez"
+date: "August 18, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#pkgs <- c(
+  # "dplyr", "gapminder", "ggplot2", "jsonlite", "Lahman", 
+  #"lubridate", "modelr", "nycflights13", "purrr", "readr", 
+  #"stringr", "tibble", "tidyr"
+#)
+#install.packages(pkgs)
+
+```
+
+# INDUSTRIAL, SHIP OWNER AND ARTISANAL LANDINGS 2000-2014 FOR SPECIES WITH STOCK ASSESSMENT IN CHILE
+```{r}
+setwd("~/OHI_Chile/Analysis_R/OHI-Chile-by-Regions.github.io/fisheries")
+
+library(readr)
+
+#If we need to be explicit about where a function (or dataset) comes from, weâ€™ll use the special form package::function(). For example, ggplot2::ggplot() tells you explicitly that weâ€™re using the ggplot() function from the ggplot2 package.
+
+#Reading Industrial landings and Artisanal+Ship Owner landings
+
+FIS_I <- read_csv("~/OHI_Chile/Analysis_R/OHI-Chile-by-Regions.github.io/fisheries/Industrial_2000_2014.csv")
+
+print(FIS_I)
+
+#Reading Artisanal+Ship Owner landings
+
+FIS_A_S <- read_csv("~/OHI_Chile/Analysis_R/OHI-Chile-by-Regions.github.io/fisheries/Artisanal_ShipOwner_2000_2014.csv")
+
+print(FIS_A_S)
+
+```
+
+
+
+```{r}
+
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+
+#Industrial landings tidy 
+
+FIS_I <- gather(FIS_I, "year", "landings", 3:17)
+
+FIS_industry <- FIS_I  %>%                               #include only species with stock assessment 
+  filter(stock %in% c('ANCHOVETA', 'BACALAO DE PROFUNDIDAD', 'CAMARON NAILON', 'CONGRIO DORADO', 'JUREL', 'LANGOSTINO AMARILLO', 'LANGOSTINO COLORADO', 'MERLUZA COMUN', 'MERLUZA DE COLA', 'MERLUZA DEL SUR O AUSTRAL', 'MERLUZA DE TRES ALETAS', 'ALBACORA O PEZ ESPADA', 'SARDINA COMUN', 'RAYA VOLANTIN')) 
+print(FIS_industry)
+
+write_csv(FIS_industry, "FIS_industry.csv")
+
+
+#Artisanal + Ship Owner landings tidy 
+
+FIS_A_S <- gather(FIS_A_S, "year", "landings", 4:18)
+print(FIS_A_S) # is giving year as chr
+
+FIS_Artisanal_ShipOwner <- FIS_A_S  %>%                               #include only species with stock assessment 
+  select(rgn_id, stock, year, landings) %>%                           # Select columns by name
+  filter(stock %in% c('ANCHOVETA', 'BACALAO DE PROFUNDIDAD', 'CAMARON NAILON', 'CONGRIO DORADO', 'JUREL', 'LANGOSTINO AMARILLO', 'LANGOSTINO COLORADO', 'MERLUZA COMUN', 'MERLUZA DE COLA', 'MERLUZA DEL SUR O AUSTRAL', 'MERLUZA DE TRES ALETAS', 'ALBACORA O PEZ ESPADA', 'SARDINA COMUN', 'RAYA VOLANTIN', 'SARDINA AUSTRAL')) 
+print(FIS_Artisanal_ShipOwner)
+
+write_csv(FIS_Artisanal_ShipOwner, "FSH_Artisanal_ShipOwner.csv")
+
+
+# species with stock assessment 
+#1.	Anchoveta 
+#2.	CamarÃ³n Nailon 
+#3.	Congrio dorado
+#4.	Jurel
+#5.	Langostino Amarillo 
+#6.	Langostino Colorado 
+#7.	Merluza comÃºn 
+#8.	Merluza de cola
+#9.	Merluza del sur 
+#10.Alfonsino 
+#11. Sardina comÃºn
+#12. Raya volantÃ­n
+#13.	Merluza de tres aletas
+#14.	Bacalao de profundidad
+#15.	Pez espada 
+#16.	Sardina austral THERE ARE NOT INDUSTRIAL LANDINGS OF
+
+#Engraulis ringens (Anchovy), Heterocarpus reedi (Deep water shrimp, camaron nailon), Genypterus blacodes (Golden kingklip, Congrio dorado, Trachurus murphyi (Jack mackerel, jurel), Cervimunida Johni (Langostino amarillo), Pleuroncodes monodon (Langostino colorado), Merluccius gayi gayi (Chilean hake, merluza gayi, Merluza común), Macruronus magellanicus (Hoki, Merluza de cola), Merluccius australis (Southen hake, Australis hake, antarctic queen, Merluza del sur o austral), Beryx splendens (Alfonsino), Strangomera bentincki (Sardina del sur, Sardina común),  (skate, Raya volantín), Micromesistius australis (Southem blue whitting, polaca, Merluza de tres aletas), Dissostichus eleginoides (Chilean seabass, Bacalao de profundidad), Xiphias gladius (Sword fish, Pez espada), Sprattus Fuegensis (Southern Sardine, Sardina austral)
+
+
+```
+
+
+
+```{r}
+#install.packages("ggplot2")
+library(ggplot2)
+
+ggplot(data = FIS_industry) + 
+  geom_point(mapping = aes(x = year, y = landings, color = stock)) #por especie y agrupar por region
+
+ggplot(data = FIS_Artisanal_ShipOwner) + 
+  geom_point(mapping = aes(x = year, y = landings, color = stock)) #hacer un grafico mezclando industrial + artesanal
+
+ggplot(FIS_industry) + 
+  geom_point(mapping = aes(x = rgn_id, y = stock, size = landings))
+
+ggplot(FIS_Artisanal_ShipOwner) + 
+  geom_point(mapping = aes(x = rgn_id, y = stock, size = landings))
+
+ggplot(data = FIS_industry) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_wrap(~ stock, nrow = 2)
+
+ggplot(data = FIS_industry) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_wrap(~ stock)
+
+ggplot(data = FIS_Artisanal_ShipOwner) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_wrap(~ stock, nrow = 2)
+
+ggplot(data = FIS_Artisanal_ShipOwner) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_wrap(~ stock)
+
+ggplot(data = FIS_industry) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_grid(rgn_id ~ stock)
+
+ggplot(data = FIS_Artisanal_ShipOwner) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_grid(rgn_id ~ stock)
+
+ggplot(data = FIS_industry) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_grid(rgn_id ~ .)
+
+ggplot(data = FIS_industry) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_grid(. ~ stock)
+
+  
+    
+    FIS_industry_Anchovy <- FIS_industry %>% 
+      filter(stock == 'ANCHOVETA')
+    
+    ggplot(data = FIS_industry_Anchovy) + 
+  geom_point(mapping = aes(x = year, y = landings, color = rgn_id))
+  
+
+    ggplot(data = FIS_industry_Anchovy) + 
+  geom_point(mapping = aes(x = rgn_id , y = landings, color = year))
+    
+    ggplot(data = FIS_industry_Anchovy) + 
+  geom_point(mapping = aes(x = year, y = landings)) + 
+  facet_grid(. ~ rgn_id)
+
+ggplot(data = FIS_industry_Anchovy) +
+  geom_smooth(mapping = aes(x = year, y = landings, group = rgn_id))
+
+ggplot(data = FIS_industry_Anchovy) +
+  geom_bar(mapping = aes(x = rgn_id))
+
+ggplot(data = FIS_industry_Anchovy, mapping = aes(x = rgn_id)) +
+  geom_histogram(binwidth = 0.1)
+    
+
+library(tidyr)
+library(ggplot2)
+
+   catch <- dplyr::bind_rows(FIS_industry, FIS_Artisanal_ShipOwner)
+
+  catch %>%
+  group_by(year) %>%
+  summarise(sum = sum(landings, na.rm = TRUE)) %>%
+  ggplot(aes(year, sum)) +
+  theme_bw() +
+  geom_point(alpha = 1, color = 'blue', size = 5)
+View(catch)
+
+
+```
+
+STOCK ASSESSMENT DATA WRANGLING
+
+```{r}
+#creating layer FIS_scores.csv
+
+#Creating a Data Frame from Scratch in R using the data.frame() function. Making a data frame from vectors in R. So, letâs make a data frame with the region_id,	stock, year,	metric and	score. First, I create five vectors that contain the necessary informations:
+
+#region_id <- c("XV", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "XIV", "X", "XI", "XII")
+#stock <- c('ANCHOVETA', 'CAMARON NAILON', 'CONGRIO DORADO', 'JUREL', 'LANGOSTINO AMARILLO', 'LANGOSTINO COLORADO', 'MERLUZA COMUN', 'MERLUZA DE COLA', 'MERLUZA DEL SUR O AUSTRAL', 'SARDINA COMUN', 'RAYA VOLANTIN')
+#year <- c(2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014)
+#metric <- c('bbmsy', 'ffmsy')
+#score <- c()
+
+#By default, R always transforms character vectors to factors when creating a data frame with character vectors or converting a character matrix to a data frame. This can be a nasty cause of errors in your code if youâre not aware of it. If you make it a habit to always specify the stringsAsFactors argument, you can avoid a lot of frustration. USE: employ.data <- data.frame(employee, salary, startdate, stringsAsFactors=FALSE)
+
+
+```
